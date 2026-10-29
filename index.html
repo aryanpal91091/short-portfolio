@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aryan Pal — Aspiring Software Developer, Python Developer, and AI/ML Student at Acropolis Institute of Technology & Research. Explore full-stack systems, 3D WebGL experiences, and emergency response platforms.">
+  <meta name="keywords" content="Aryan Pal, Software Developer, Python Developer, AI/ML, Full-Stack, React, Node.js, Three.js, Palmart Enterprise Pro, Signal Drift, ResQRoute, Portfolio">
+  <meta name="author" content="Aryan Pal">
+
+  <!-- Open Graph / Social Sharing -->
+  <meta property="og:title" content="Aryan Pal | Software Developer & AI/ML Student">
+  <meta property="og:description" content="Building Intelligent Ideas Into Real-World Software. Explore verified projects, live demos, and technical skills.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/aryan_profile.jpg">
+
+  <!-- Page Title -->
+  <title>Aryan Pal | Software Developer & AI/ML Student</title>
+
+  <!-- Google Fonts: Outfit & Inter + Fira Code -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Production Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Scroll Progress Indicator -->
+  <div id="scroll-progress" aria-hidden="true"></div>
+
+  <!-- Background Technical Grid & Atmospheric Lighting -->
+  <div class="bg-grid-overlay" aria-hidden="true"></div>
+  <div class="ambient-light light-hero" aria-hidden="true"></div>
+  <div class="ambient-light light-projects" aria-hidden="true"></div>
+
+  <!-- NAVIGATION BAR -->
+  <header>
+    <nav class="navbar" id="navbar">
+      <a href="#home" class="brand-link" aria-label="Aryan Pal Home">
+        <div class="brand-monogram">AP</div>
+        <span>Aryan Pal</span>
+      </a>
+
+      <ul class="nav-links-wrap" id="nav-menu">
+        <li><a href="#home" class="nav-anchor active">Home</a></li>
+        <li><a href="#about" class="nav-anchor">About</a></li>
+        <li><a href="#skills" class="nav-anchor">Skills</a></li>
+        <li><a href="#projects" class="nav-anchor">Projects</a></li>
+        <li><a href="#experience" class="nav-anchor">Experience</a></li>
+        <li><a href="#resume" class="nav-anchor">Resume</a></li>
+        <li><a href="#contact" class="nav-anchor">Contact</a></li>
+        <li class="mobile-only-nav-item">
+          <button class="btn btn-primary btn-sm open-interview-modal" style="width: 100%; justify-content: center; margin-top: 0.5rem;">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+            <span>Schedule Interview</span>
+          </button>
+        </li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn btn-outline btn-sm open-interview-modal" title="Schedule an interview with Aryan">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+          <span>Schedule Interview</span>
+        </button>
+
+        <a href="Aryan_Pal_Resume.pdf" download="Aryan_Pal_Resume.pdf" class="btn btn-primary btn-sm" title="Download Aryan's Resume (PDF)">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+          <span>Resume</span>
+        </a>
+
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="home">
+      <div class="container">
+        <div class="hero-grid">
+          
+          <!-- Hero Text Column -->
+          <div class="hero-copy-column">
+            
+            <div class="availability-pill">
+              <span class="status-indicator-dot"></span>
+              <span>Available for Internships & Projects</span>
+            </div>
+
+            <div class="hero-greeting">Hi, I'm Aryan Pal</div>
+
+            <h1 class="hero-headline">
+              Building Intelligent Ideas Into <span class="headline-highlight">Real-World Software</span>.
+            </h1>
+
+            <p class="hero-bio">
+              I’m an AI/ML student and developer passionate about building practical software, interactive experiences, and technology-driven solutions to real-world problems.
+            </p>
+
+            <div class="hero-cta-bar">
+              <a href="#projects" class="btn btn-primary">
+                <span>Explore My Projects</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+
+              <button class="btn btn-outline open-interview-modal" id="hero-schedule-btn">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span>Schedule Interview</span>
+              </button>
+
+              <a href="Aryan_Pal_Resume.pdf" download="Aryan_Pal_Resume.pdf" class="btn btn-outline" id="hero-resume-download">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download Resume</span>
+              </a>
+            </div>
+
+            <!-- Social Links Quick Bar -->
+            <div class="hero-socials-row">
+              <span class="hero-social-label">Connect:</span>
+              
+              <a href="https://github.com/aryanpal91091" target="_blank" rel="noopener noreferrer" class="btn-icon-link" title="GitHub Profile" aria-label="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+
+              <a href="https://www.linkedin.com/in/aryan-pal-5a26a135b/" target="_blank" rel="noopener noreferrer" class="btn-icon-link" title="LinkedIn Profile" aria-label="LinkedIn">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+              </a>
+
+              <a href="https://wa.me/919109163433?text=Hi%20Aryan%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer" class="btn-icon-link" title="WhatsApp Chat" aria-label="WhatsApp">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+              </a>
+
+              <a href="mailto:palaryan7546@gmail.com" class="btn-icon-link" title="Email Aryan" aria-label="Email">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+              </a>
+            </div>
+
+          </div>
+
+          <!-- Hero Portrait Column (Authentic Professional Photograph) -->
+          <div class="hero-portrait-frame">
+            <div class="portrait-container">
+              <span class="tech-corner corner-tl"></span>
+              <span class="tech-corner corner-br"></span>
+              <!-- Authentic uploaded portrait of Aryan Pal in professional suit & tie -->
+              <img src="assets/aryan_profile.jpg" alt="Aryan Pal — Professional Developer Portrait" class="portrait-photo" width="380" height="380">
+              <div class="portrait-meta-badge">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                <span>Aryan Pal • B.Tech AI & ML • IEEE Member</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about-section" id="about">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+            Background
+          </span>
+          <h2 class="section-title">Turning Ideas Into Working Software</h2>
+          <p class="section-subtitle">Bridging theoretical computer science with hands-on development across business systems, 3D WebGL, and emergency coordination.</p>
+        </div>
+
+        <div class="about-grid">
+          
+          <!-- Narrative & Focus -->
+          <div class="about-card">
+            <div class="about-text-content">
+              <p>
+                I’m Aryan Pal, a B.Tech student specializing in Artificial Intelligence and Machine Learning. I enjoy turning ideas into working software, exploring new technologies, and solving practical problems through development.
+              </p>
+              <p>
+                My projects span business management systems, immersive 3D experiences, and emergency response coordination. I’m continuously improving my technical skills through hands-on development, experimentation, and collaborative learning.
+              </p>
+              <p>
+                My internships at <strong>Payzoplus Global Private Ltd.</strong> and <strong>EliteVeda Edutech Private Ltd., Bengaluru</strong> have strengthened my approach to teamwork, clean architectural design, and deploying reliable solutions.
+              </p>
+            </div>
+
+            <div class="about-highlights-list">
+              <div class="about-highlight-box">
+                <h4>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                  Clean Code
+                </h4>
+                <p>Writing maintainable, modular, and well-tested logic across backend and frontend.</p>
+              </div>
+
+              <div class="about-highlight-box">
+                <h4>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                  Real Systems
+                </h4>
+                <p>Focusing on software that solves concrete workflow bottlenecks and delivers value.</p>
+              </div>
+            </div>
+
+            <div style="margin-top: 2rem; display: flex; gap: 1rem; flex-wrap: wrap;">
+              <button class="btn btn-primary btn-sm open-interview-modal">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                <span>Schedule Interview</span>
+              </button>
+              <a href="Aryan_Pal_Resume.pdf" download="Aryan_Pal_Resume.pdf" class="btn btn-outline btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download Resume</span>
+              </a>
+              <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <span>View Full Resume (PDF)</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Verified Overview Sidebar -->
+          <div class="facts-card">
+            <h3>Verified Overview</h3>
+            <ul class="facts-list">
+              <li class="fact-item">
+                <div class="fact-icon-wrap">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+                </div>
+                <div class="fact-meta">
+                  <h5>Education</h5>
+                  <p>B.Tech in AI & Machine Learning (2024–2028)</p>
+                </div>
+              </li>
+
+              <li class="fact-item">
+                <div class="fact-icon-wrap">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                </div>
+                <div class="fact-meta">
+                  <h5>Internships</h5>
+                  <p>Payzoplus Global & EliteVeda Edutech</p>
+                </div>
+              </li>
+
+              <li class="fact-item">
+                <div class="fact-icon-wrap">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                </div>
+                <div class="fact-meta">
+                  <h5>Professional Affiliation</h5>
+                  <p>Active IEEE Student Member</p>
+                </div>
+              </li>
+
+              <li class="fact-item">
+                <div class="fact-icon-wrap">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                </div>
+                <div class="fact-meta">
+                  <h5>Location</h5>
+                  <p>Indore / Dewas, Madhya Pradesh, India</p>
+                </div>
+              </li>
+            </ul>
+
+            <div style="background: rgba(0, 242, 254, 0.05); border: 1px solid rgba(0, 242, 254, 0.2); padding: 1.25rem; border-radius: var(--radius-md); margin-top: auto;">
+              <div style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--accent-cyan); margin-bottom: 0.35rem;">COLLABORATION MINDSET</div>
+              <p style="font-size: 0.88rem; color: var(--text-secondary); margin-bottom: 0;">Regularly engaged in peer code reviews, algorithmic problem-solving, and building production-grade web applications.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section class="projects-section" id="projects">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            Featured Engineering
+          </span>
+          <h2 class="section-title">Actual Projects & Working Systems</h2>
+          <p class="section-subtitle">Real-world applications built with modern stacks, production architectures, and live demonstrations.</p>
+        </div>
+
+        <div class="projects-list">
+          
+          <!-- PROJECT 01: PALMART ENTERPRISE PRO -->
+          <article class="project-card" id="project-palmart">
+            <div class="project-media-side">
+              <span class="project-badge-tag">Enterprise Full-Stack</span>
+              <img src="assets/palmart-cover.jpg" alt="PALMART Enterprise Pro POS & Inventory Management System Dashboard" class="project-img-preview" loading="lazy">
+            </div>
+
+            <div class="project-info-side">
+              <div class="project-titles-wrap">
+                <div class="project-subtitle">POS & Inventory Management System</div>
+                <h3 class="project-name">PALMART ENTERPRISE PRO</h3>
+              </div>
+
+              <p class="project-description">
+                A full-stack supermarket management system designed to streamline billing, inventory tracking, sales reporting, and business analytics.
+              </p>
+
+              <ul class="project-features-list">
+                <li>
+                  <svg class="feature-bullet-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>POS billing and transaction processing with automated receipt generation</span>
+                </li>
+                <li>
+                  <svg class="feature-bullet-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Role-based access control for Admin, Manager, and Cashier tiers with JWT auth</span>
+                </li>
+                <li>
+                  <svg class="feature-bullet-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Demand forecasting, market basket analysis, customer segmentation, & DB backup</span>
+                </li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">React 19</span>
+                <span class="tech-tag">TypeScript</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">Express.js</span>
+                <span class="tech-tag">PostgreSQL</span>
+                <span class="tech-tag">Prisma ORM</span>
+                <span class="tech-tag">Redux</span>
+                <span class="tech-tag">JWT</span>
+                <span class="tech-tag">Docker</span>
+              </div>
+
+              <div class="project-actions-row">
+                <a href="https://github.com/aryanpal91091/palmart-enterprises" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                  <span>View Source Code</span>
+                </a>
+                <button class="btn btn-outline btn-sm open-case-study" data-project-id="palmart">
+                  <span>Architecture & Features</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 02: SIGNAL DRIFT (CORRECTED 3D SPACE GAME IMAGE) -->
+          <article class="project-card" id="project-signal-drift">
+            <div class="project-media-side">
+              <span class="project-badge-tag">3D WebGL / S.T.E.M Jam 2026</span>
+              <!-- Authentic 3D zero-gravity space navigation game visual -->
+              <img src="assets/signal-drift-cover.jpg" alt="SIGNAL DRIFT 3D Zero-Gravity Space Navigation Game showing spacecraft navigating asteroids toward transmission beacon" class="project-img-preview" loading="lazy">
+            </div>
+
+            <div class="project-info-side">
+              <div class="project-titles-wrap">
+                <div class="project-subtitle">Game Development Project | S.T.E.M Jam 2026</div>
+                <h3 class="project-name">SIGNAL DRIFT</h3>
+              </div>
+
+              <p class="project-description">
+                An immersive 3D space navigation experience where players maneuver through a zero-gravity environment, avoid asteroids, and navigate toward a transmission beacon.
+              </p>
+
+              <ul class="project-features-list">
+                <li>
+                  <svg class="feature-bullet-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Custom six-degrees-of-freedom (6DOF) flight physics with inertia and damping</span>
+                </li>
+                <li>
+                  <svg class="feature-bullet-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Dynamic signal degradation based on beacon distance & raycast asteroid occlusion</span>
+                </li>
+                <li>
+                  <svg class="feature-bullet-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Custom GLSL shader glitch effects, RGB chromatic aberration, and scanlines</span>
+                </li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Three.js</span>
+                <span class="tech-tag">WebGL</span>
+                <span class="tech-tag">GLSL Shaders</span>
+                <span class="tech-tag">Physics Simulation</span>
+                <span class="tech-tag">Raycasting</span>
+              </div>
+
+              <div class="project-actions-row">
+                <a href="https://space-aesteroid-signal-game.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                  <span>Launch Live Demo</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <button class="btn btn-outline btn-sm open-case-study" data-project-id="signal-drift">
+                  <span>Physics & Shaders</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- PROJECT 03: ResQRoute -->
+          <article class="project-card" id="project-resqroute">
+            <div class="project-media-side">
+              <span class="project-badge-tag" style="color: #fb7185;">AI Emergency Coordination</span>
+              <img src="assets/resqroute-cover.png" alt="ResQRoute Smart Emergency Ambulance & Green Corridor System" class="project-img-preview" loading="lazy">
+            </div>
+
+            <div class="project-info-side">
+              <div class="project-titles-wrap">
+                <div class="project-subtitle">AI-Powered Emergency Response System</div>
+                <h3 class="project-name">ResQRoute</h3>
+              </div>
+
+              <p class="project-description">
+                An emergency response coordination platform designed to connect citizens, ambulance services, traffic police, and hospitals through a unified system.
+              </p>
+
+              <!-- Transparent Ethical Disclaimer -->
+              <div class="project-disclaimer-notice">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                <span>Project demonstration only. Must not be relied on as a substitute for official municipal emergency response services.</span>
+              </div>
+
+              <ul class="project-features-list">
+                <li>
+                  <svg class="feature-bullet-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Emergency SOS workflow with location dispatch and real-time incident reporting</span>
+                </li>
+                <li>
+                  <svg class="feature-bullet-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Multi-stakeholder coordination connecting citizens, hospitals, and traffic control</span>
+                </li>
+                <li>
+                  <svg class="feature-bullet-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>AI-powered decision support for faster triage and informed transit management</span>
+                </li>
+              </ul>
+
+              <div class="project-tech-tags">
+                <span class="tech-tag">React</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Node.js</span>
+                <span class="tech-tag">AI/ML</span>
+                <span class="tech-tag">Maps API</span>
+                <span class="tech-tag">REST APIs</span>
+              </div>
+
+              <div class="project-actions-row">
+                <a href="https://emergency-sos-system-six.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                  <span>Launch Live Platform</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+                </a>
+                <button class="btn btn-outline btn-sm open-case-study" data-project-id="resqroute">
+                  <span>System Architecture</span>
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills-section" id="skills">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path></svg>
+            Technical Proficiencies
+          </span>
+          <h2 class="section-title">Categorized Technical Arsenal</h2>
+          <p class="section-subtitle">A clear breakdown of foundational languages and specialized technologies demonstrated across my projects.</p>
+        </div>
+
+        <div class="skills-categories-grid">
+          
+          <!-- Category 1: Programming -->
+          <div class="skill-category-card">
+            <div>
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                </div>
+                <h3>Programming Languages</h3>
+              </div>
+              <p class="skill-cat-desc">Foundational and modern languages for algorithms, scripting, and applications.</p>
+            </div>
+            <div class="skill-items-wrap">
+              <span class="skill-chip">Python</span>
+              <span class="skill-chip">C</span>
+              <span class="skill-chip">C++</span>
+              <span class="skill-chip">JavaScript</span>
+              <span class="skill-chip">TypeScript</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Frontend -->
+          <div class="skill-category-card">
+            <div>
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+                </div>
+                <h3>Frontend Development</h3>
+              </div>
+              <p class="skill-cat-desc">Component-driven responsive architectures and state management.</p>
+            </div>
+            <div class="skill-items-wrap">
+              <span class="skill-chip">HTML</span>
+              <span class="skill-chip">CSS</span>
+              <span class="skill-chip">React 19</span>
+              <span class="skill-chip">Redux</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Backend & APIs -->
+          <div class="skill-category-card">
+            <div>
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+                </div>
+                <h3>Backend & Architecture</h3>
+              </div>
+              <p class="skill-cat-desc">Server-side systems, RESTful APIs, and secure JWT authentication workflows.</p>
+            </div>
+            <div class="skill-items-wrap">
+              <span class="skill-chip">Node.js</span>
+              <span class="skill-chip">Express.js</span>
+              <span class="skill-chip">REST APIs</span>
+              <span class="skill-chip">JWT Authentication</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Data & Databases -->
+          <div class="skill-category-card">
+            <div>
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+                </div>
+                <h3>Data & Databases</h3>
+              </div>
+              <p class="skill-cat-desc">Relational storage, ORM mappings, data wrangling, and structured business reporting.</p>
+            </div>
+            <div class="skill-items-wrap">
+              <span class="skill-chip">PostgreSQL</span>
+              <span class="skill-chip">Prisma ORM</span>
+              <span class="skill-chip">Pandas & NumPy</span>
+              <span class="skill-chip">Advanced Excel</span>
+              <span class="skill-chip">Data Analysis</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Graphics & Tools -->
+          <div class="skill-category-card">
+            <div>
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 19 21 12 17 5 21 12 2"></polygon></svg>
+                </div>
+                <h3>Graphics & Tools</h3>
+              </div>
+              <p class="skill-cat-desc">Real-time 3D rendering, containerization, and modern version control.</p>
+            </div>
+            <div class="skill-items-wrap">
+              <span class="skill-chip">Three.js</span>
+              <span class="skill-chip">WebGL</span>
+              <span class="skill-chip">GLSL Shaders</span>
+              <span class="skill-chip">Git & GitHub</span>
+              <span class="skill-chip">Docker</span>
+            </div>
+          </div>
+
+          <!-- Category 6: AI/ML & Problem Solving -->
+          <div class="skill-category-card">
+            <div>
+              <div class="skill-cat-header">
+                <div class="skill-cat-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                </div>
+                <h3>AI/ML & Problem-Solving</h3>
+              </div>
+              <p class="skill-cat-desc">Predictive algorithms, data structures, and analytical optimization methods.</p>
+            </div>
+            <div class="skill-items-wrap">
+              <span class="skill-chip">AI & Machine Learning</span>
+              <span class="skill-chip">Data Structures</span>
+              <span class="skill-chip">Demand Forecasting</span>
+              <span class="skill-chip">Market Basket Analysis</span>
+              <span class="skill-chip">Customer Segmentation</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EXPERIENCE & EDUCATION (VERTICAL TIMELINE) -->
+    <section class="experience-section" id="experience">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            Path & Trajectory
+          </span>
+          <h2 class="section-title">Education & Experience</h2>
+          <p class="section-subtitle">Academic foundations in Artificial Intelligence and practical industry internships.</p>
+        </div>
+
+        <div class="timeline-section-grid">
+          
+          <!-- Education Column -->
+          <div class="timeline-column-card">
+            <div class="timeline-column-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c3 3 9 3 12 0v-5"></path></svg>
+              <h3>Formal Education</h3>
+            </div>
+
+            <div class="clean-timeline">
+              <div class="timeline-node">
+                <div class="node-bullet"></div>
+                <div class="node-period">2024 — 2028 (IN PROGRESS)</div>
+                <h4 class="node-title">B.Tech in Artificial Intelligence & Machine Learning</h4>
+                <div class="node-org">Acropolis Institute of Technology & Research (AITR), Indore</div>
+                <p class="node-desc">
+                  Affiliated with Rajiv Gandhi Proudyogiki Vishwavidyalaya (RGPV), Bhopal. Core coursework encompasses data structures, algorithmic analysis, predictive modeling, machine learning fundamentals, and software development standards.
+                </p>
+              </div>
+
+              <div class="timeline-node">
+                <div class="node-bullet"></div>
+                <div class="node-period">PROFESSIONAL COMMUNITY</div>
+                <h4 class="node-title">Active Student Member</h4>
+                <div class="node-org">IEEE Student Branch</div>
+                <p class="node-desc">
+                  Engaged in technical workshops, community learning sessions, and collaborative problem-solving discussions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Experience Column -->
+          <div class="timeline-column-card">
+            <div class="timeline-column-header">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+              <h3>Industry Internships</h3>
+            </div>
+
+            <div class="clean-timeline">
+              <div class="timeline-node">
+                <div class="node-bullet"></div>
+                <div class="node-period">INTERNSHIP</div>
+                <h4 class="node-title">Intern</h4>
+                <div class="node-org">Payzoplus Global Private Ltd.</div>
+                <p class="node-desc">
+                  Gained practical exposure to cross-border FinTech payment workflows, international settlements, and technology solutions tailored for business transactions.
+                </p>
+              </div>
+
+              <div class="timeline-node">
+                <div class="node-bullet"></div>
+                <div class="node-period">INTERNSHIP</div>
+                <h4 class="node-title">Intern</h4>
+                <div class="node-org">EliteVeda Edutech Private Ltd., Bengaluru</div>
+                <p class="node-desc">
+                  Contributed to educational technology development, collaborative software assignments, and practical problem-solving workflows.
+                </p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- RESUME VIEWER & DOWNLOAD SECTION -->
+    <section class="resume-section" id="resume">
+      <div class="container">
+        
+        <div class="resume-section-card">
+          <div class="resume-toolbar-row">
+            <div>
+              <span class="section-tag">
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                Verified Document
+              </span>
+              <h2 style="font-size: 1.85rem; margin-top: 0.25rem;">Curriculum Vitae</h2>
+            </div>
+
+            <div style="display: flex; gap: 0.85rem; flex-wrap: wrap;">
+              <a href="Aryan_Pal_Resume.pdf" download="Aryan_Pal_Resume.pdf" class="btn btn-primary btn-sm">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                <span>Download Resume (PDF)</span>
+              </a>
+
+              <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-sm">
+                <span>Open in New Tab</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+            </div>
+          </div>
+
+          <!-- Embedded PDF Viewer with Accessible Fallback -->
+          <div class="resume-embed-container">
+            <iframe src="resume.pdf#toolbar=0&navpanes=0" class="resume-iframe" title="Aryan Pal Resume PDF Viewer">
+              <div class="resume-embed-fallback">
+                <p>Your browser does not support embedded PDF previews.</p>
+                <a href="Aryan_Pal_Resume.pdf" download="Aryan_Pal_Resume.pdf" class="btn btn-primary" style="margin-top: 1rem;">
+                  Download Resume PDF Directly
+                </a>
+              </div>
+            </iframe>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- SOCIAL MEDIA & CHANNELS SECTION -->
+    <section class="socials-section" id="socials">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+            Channels
+          </span>
+          <h2 class="section-title">Official Online Profiles</h2>
+          <p class="section-subtitle">Reach out across verified social and professional developer channels.</p>
+        </div>
+
+        <div class="socials-grid" id="socials-grid">
+          
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/aryan-pal-5a26a135b/" target="_blank" rel="noopener noreferrer" class="social-channel-card" aria-label="Connect with Aryan Pal on LinkedIn">
+            <div class="social-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            </div>
+            <div class="social-info-meta">
+              <h4>LinkedIn</h4>
+              <p>/in/aryan-pal-5a26a135b</p>
+            </div>
+            <span class="channel-action-arrow">↗</span>
+          </a>
+
+          <!-- GitHub -->
+          <a href="https://github.com/aryanpal91091" target="_blank" rel="noopener noreferrer" class="social-channel-card" aria-label="View Aryan Pal's GitHub Repositories">
+            <div class="social-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+            </div>
+            <div class="social-info-meta">
+              <h4>GitHub</h4>
+              <p>@aryanpal91091</p>
+            </div>
+            <span class="channel-action-arrow">↗</span>
+          </a>
+
+          <!-- WhatsApp -->
+          <a href="https://wa.me/919109163433?text=Hi%20Aryan%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer" class="social-channel-card" aria-label="Chat with Aryan Pal on WhatsApp">
+            <div class="social-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+            </div>
+            <div class="social-info-meta">
+              <h4>WhatsApp</h4>
+              <p>+91 9109163433</p>
+            </div>
+            <span class="channel-action-arrow">↗</span>
+          </a>
+
+          <!-- Email Direct -->
+          <a href="mailto:palaryan7546@gmail.com" class="social-channel-card" aria-label="Send Email to Aryan Pal">
+            <div class="social-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+            </div>
+            <div class="social-info-meta">
+              <h4>Email</h4>
+              <p>palaryan7546@gmail.com</p>
+            </div>
+            <span class="channel-action-arrow">↗</span>
+          </a>
+
+          <!-- X / Twitter (Configurable Placeholder) -->
+          <div class="social-channel-card unconfigured" title="Configure your X handle in portfolio.config.js">
+            <div class="social-icon-box">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </div>
+            <div class="social-info-meta">
+              <h4>X / Twitter</h4>
+              <p>[Pending Configuration]</p>
+            </div>
+            <span style="font-size: 0.75rem; color: var(--text-muted); margin-left: auto;">Edit in config</span>
+          </div>
+
+          <!-- Instagram (Configurable Placeholder) -->
+          <div class="social-channel-card unconfigured" title="Configure your Instagram handle in portfolio.config.js">
+            <div class="social-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </div>
+            <div class="social-info-meta">
+              <h4>Instagram</h4>
+              <p>[Pending Configuration]</p>
+            </div>
+            <span style="font-size: 0.75rem; color: var(--text-muted); margin-left: auto;">Edit in config</span>
+          </div>
+
+          <!-- Facebook (Configurable Placeholder) -->
+          <div class="social-channel-card unconfigured" title="Configure your Facebook handle in portfolio.config.js">
+            <div class="social-icon-box">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </div>
+            <div class="social-info-meta">
+              <h4>Facebook</h4>
+              <p>[Pending Configuration]</p>
+            </div>
+            <span style="font-size: 0.75rem; color: var(--text-muted); margin-left: auto;">Edit in config</span>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section" id="contact">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            Get In Touch
+          </span>
+          <h2 class="section-title">Let’s Start a Conversation</h2>
+          <p class="section-subtitle">Have an idea, opportunity, or interesting problem to solve? Let’s connect.</p>
+        </div>
+
+        <div class="contact-layout-grid">
+          
+          <!-- Contact Channels List -->
+          <div class="contact-quick-cards">
+            
+            <div class="contact-quick-item">
+              <div class="social-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+              </div>
+              <div>
+                <div style="font-size: 0.78rem; font-family: var(--font-mono); color: var(--text-muted); text-transform: uppercase;">Direct Email</div>
+                <div style="font-weight: 600; font-size: 0.95rem;">palaryan7546@gmail.com</div>
+              </div>
+              <button class="copy-action-btn" data-copy="palaryan7546@gmail.com" title="Copy email address" aria-label="Copy email">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <div class="contact-quick-item">
+              <div class="social-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              </div>
+              <div>
+                <div style="font-size: 0.78rem; font-family: var(--font-mono); color: var(--text-muted); text-transform: uppercase;">Direct Phone / WhatsApp</div>
+                <div style="font-weight: 600; font-size: 0.95rem;">+91 9109163433</div>
+              </div>
+              <button class="copy-action-btn" data-copy="+919109163433" title="Copy phone number" aria-label="Copy phone">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+
+            <div class="contact-quick-item">
+              <div class="social-icon-box">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              </div>
+              <div>
+                <div style="font-size: 0.78rem; font-family: var(--font-mono); color: var(--text-muted); text-transform: uppercase;">Base Location</div>
+                <div style="font-weight: 600; font-size: 0.95rem;">Indore / Dewas, MP, India</div>
+              </div>
+            </div>
+
+            <button class="btn btn-primary open-interview-modal" style="width: 100%; justify-content: center; margin-top: 0.5rem;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+              <span>Schedule Interview / Discussion</span>
+            </button>
+
+            <a href="https://wa.me/919109163433?text=Hi%20Aryan%2C%20I%20visited%20your%20portfolio%20and%20would%20like%20to%20connect." target="_blank" rel="noopener noreferrer" class="btn btn-outline" style="width: 100%; justify-content: center;">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+              <span>Instant Chat on WhatsApp</span>
+            </a>
+
+          </div>
+
+          <!-- Functional Contact Form -->
+          <div class="contact-form-card">
+            <form id="contact-form" novalidate>
+              
+              <div class="form-group-wrap">
+                <label for="form-name">Your Full Name</label>
+                <input type="text" id="form-name" class="form-input-control" placeholder="e.g. John Doe / Hiring Manager" required>
+              </div>
+
+              <div class="form-group-wrap">
+                <label for="form-email">Your Work Email</label>
+                <input type="email" id="form-email" class="form-input-control" placeholder="e.g. john@company.com" required>
+              </div>
+
+              <div class="form-group-wrap">
+                <label for="form-subject">Subject</label>
+                <input type="text" id="form-subject" class="form-input-control" placeholder="e.g. Full-Stack Internship / Project Opportunity" required>
+              </div>
+
+              <div class="form-group-wrap">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" class="form-input-control" placeholder="Hi Aryan, I reviewed your projects and would like to discuss..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                <span>Dispatch Message</span>
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+
+              <div class="form-status-display" id="form-status" role="alert"></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      
+      <div class="footer-top-row">
+        <div class="footer-brand-meta">
+          <a href="#home" class="brand-link">
+            <div class="brand-monogram">AP</div>
+            <span>Aryan Pal</span>
+          </a>
+          <p>
+            Aspiring Software Developer | Python Developer | AI/ML Student | Full-Stack Project Builder
+          </p>
+        </div>
+
+        <ul class="footer-nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div>
+          <button class="back-to-top-btn" id="btn-back-to-top" aria-label="Back to top of page">
+            <span>Back to top</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom-row">
+        <div>© <span id="copyright-year">2026</span> Aryan Pal. Built with clean engineering principles and authentic source data.</div>
+        <div style="font-family: var(--font-mono); font-size: 0.8rem; color: var(--text-muted);">
+          Indore & Dewas, India
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- CASE STUDY MODAL DIALOG -->
+  <div class="modal-overlay" id="case-study-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-content-card">
+      <button class="modal-close-trigger" id="modal-close-trigger" aria-label="Close dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+      <div id="modal-body-container">
+        <!-- Injected dynamically via script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- SCHEDULE INTERVIEW MODAL DIALOG -->
+  <div class="modal-overlay" id="interview-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-content-card" style="max-width: 760px;">
+      <button class="modal-close-trigger" id="interview-close-trigger" aria-label="Close booking dialog">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"></line><line x1="6" y1="6" x2="18" y2="18"></line></svg>
+      </button>
+
+      <!-- Booking Form View -->
+      <div id="booking-form-view">
+        <div style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--accent-cyan); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.35rem;">
+          Recruiter & Hiring Portal
+        </div>
+        <h2 style="font-size: 1.85rem; margin-bottom: 0.5rem;">Schedule an Interview with Aryan</h2>
+        <p style="font-size: 0.95rem; color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.6;">
+          Select your preferred interview format, date, and time slot. You will receive an instant calendar invite and booking confirmation.
+        </p>
+
+        <form id="interview-booking-form" novalidate>
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+            <div class="form-group-wrap" style="margin-bottom: 0;">
+              <label for="book-name">Your Name</label>
+              <input type="text" id="book-name" class="form-input-control" placeholder="e.g. Sarah Jenkins" required>
+            </div>
+            <div class="form-group-wrap" style="margin-bottom: 0;">
+              <label for="book-email">Work Email</label>
+              <input type="email" id="book-email" class="form-input-control" placeholder="e.g. s.jenkins@company.com" required>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+            <div class="form-group-wrap" style="margin-bottom: 0;">
+              <label for="book-company">Company / Organization</label>
+              <input type="text" id="book-company" class="form-input-control" placeholder="e.g. Acme Tech / Startup" required>
+            </div>
+            <div class="form-group-wrap" style="margin-bottom: 0;">
+              <label for="book-role">Hiring Role / Position</label>
+              <input type="text" id="book-role" class="form-input-control" placeholder="e.g. Software Developer Intern" required>
+            </div>
+          </div>
+
+          <!-- Interview Type Selection -->
+          <div class="form-group-wrap">
+            <label>Interview Format</label>
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.75rem;">
+              <label class="interview-type-card active">
+                <input type="radio" name="interview-type" value="Technical Walkthrough (45 min)" checked style="display: none;">
+                <div style="font-weight: 600; font-size: 0.9rem; color: var(--text-primary); margin-bottom: 0.2rem;">💻 Technical Walkthrough</div>
+                <div style="font-size: 0.78rem; color: var(--text-muted);">45 min • Code, Architecture & Algorithms</div>
+              </label>
+
+              <label class="interview-type-card">
+                <input type="radio" name="interview-type" value="Introductory Screening (30 min)" style="display: none;">
+                <div style="font-weight: 600; font-size: 0.9rem; color: var(--text-primary); margin-bottom: 0.2rem;">🤝 HR / Screening</div>
+                <div style="font-size: 0.78rem; color: var(--text-muted);">30 min • Background, Alignment & Role Fit</div>
+              </label>
+
+              <label class="interview-type-card">
+                <input type="radio" name="interview-type" value="Full-Stack & AI Discussion (45 min)" style="display: none;">
+                <div style="font-weight: 600; font-size: 0.9rem; color: var(--text-primary); margin-bottom: 0.2rem;">🧠 Full-Stack & AI Systems</div>
+                <div style="font-size: 0.78rem; color: var(--text-muted);">45 min • WebGL, React & Machine Learning</div>
+              </label>
+
+              <label class="interview-type-card">
+                <input type="radio" name="interview-type" value="Quick Exploratory Chat (15 min)" style="display: none;">
+                <div style="font-weight: 600; font-size: 0.9rem; color: var(--text-primary); margin-bottom: 0.2rem;">☕ Quick Coffee Chat</div>
+                <div style="font-size: 0.78rem; color: var(--text-muted);">15 min • Informal Introduction</div>
+              </label>
+            </div>
+          </div>
+
+          <!-- Date & Time Row -->
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1rem;">
+            <div class="form-group-wrap" style="margin-bottom: 0;">
+              <label for="book-date">Preferred Date</label>
+              <input type="date" id="book-date" class="form-input-control" required>
+            </div>
+            <div class="form-group-wrap" style="margin-bottom: 0;">
+              <label for="book-time">Time Slot (IST / Local)</label>
+              <select id="book-time" class="form-input-control" required>
+                <option value="10:00 AM - 10:45 AM IST">10:00 AM – 10:45 AM IST</option>
+                <option value="11:30 AM - 12:15 PM IST">11:30 AM – 12:15 PM IST</option>
+                <option value="02:00 PM - 02:45 PM IST">02:00 PM – 02:45 PM IST</option>
+                <option value="04:00 PM - 04:45 PM IST" selected>04:00 PM – 04:45 PM IST</option>
+                <option value="06:00 PM - 06:45 PM IST">06:00 PM – 06:45 PM IST</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group-wrap">
+            <label for="book-notes">Meeting Notes / Agenda (Optional)</label>
+            <textarea id="book-notes" class="form-input-control" style="min-height: 80px;" placeholder="Add any specific questions or meeting link details (Google Meet, Zoom, Teams)..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            <span>Confirm & Book Interview</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </button>
+
+          <div class="form-status-display" id="booking-error-msg" role="alert"></div>
+        </form>
+      </div>
+
+      <!-- Booking Confirmation View (Hidden by default) -->
+      <div id="booking-confirmation-view" style="display: none;">
+        <div style="text-align: center; padding: 1.5rem 0;">
+          <div style="width: 58px; height: 58px; border-radius: 50%; background: rgba(16, 185, 129, 0.12); border: 1px solid rgba(16, 185, 129, 0.35); color: #34d399; display: flex; align-items: center; justify-content: center; margin: 0 auto 1.25rem auto;">
+            <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </div>
+
+          <div style="font-size: 0.8rem; font-family: var(--font-mono); color: var(--accent-cyan); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.35rem;">
+            Booking Confirmed
+          </div>
+          <h2 style="font-size: 1.85rem; margin-bottom: 0.75rem;">Interview Scheduled!</h2>
+          <p style="font-size: 0.98rem; color: var(--text-secondary); max-width: 520px; margin: 0 auto 1.75rem auto; line-height: 1.6;">
+            Your interview request has been generated for Aryan Pal. Details have been logged with reference ID <span id="conf-ref-id" style="color: var(--accent-cyan); font-family: var(--font-mono); font-weight: 600;"></span>.
+          </p>
+
+          <div style="background: var(--bg-surface); border: 1px solid var(--border-medium); border-radius: var(--radius-md); padding: 1.5rem; text-align: left; max-width: 540px; margin: 0 auto 2rem auto;">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 0.75rem;">
+              <div>
+                <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--text-muted); text-transform: uppercase;">Candidate</span>
+                <div style="font-weight: 600; color: var(--text-primary);">Aryan Pal</div>
+              </div>
+              <div>
+                <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--text-muted); text-transform: uppercase;">Interviewer</span>
+                <div style="font-weight: 600; color: var(--text-primary);" id="conf-interviewer"></div>
+              </div>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 0.75rem;">
+              <div>
+                <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--text-muted); text-transform: uppercase;">Date</span>
+                <div style="font-weight: 600; color: var(--accent-cyan);" id="conf-date"></div>
+              </div>
+              <div>
+                <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--text-muted); text-transform: uppercase;">Time Slot</span>
+                <div style="font-weight: 600; color: var(--text-primary);" id="conf-time"></div>
+              </div>
+            </div>
+
+            <div>
+              <span style="font-size: 0.75rem; font-family: var(--font-mono); color: var(--text-muted); text-transform: uppercase;">Format</span>
+              <div style="font-weight: 600; color: var(--text-primary);" id="conf-format"></div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+            <button class="btn btn-primary btn-sm" id="btn-download-ics">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+              <span>Download Calendar Invite (.ics)</span>
+            </button>
+
+            <button class="btn btn-outline btn-sm" id="btn-done-booking">
+              <span>Done</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-banner" id="toast-banner" role="status" aria-live="polite">
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--accent-cyan)" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- JavaScript Modules -->
+  <script src="portfolio.config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
