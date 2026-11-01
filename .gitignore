@@ -4,3 +4,5 @@ resume_extracted.txt
 pal_report_info.txt
 payzoplus_info.txt
 package-lock.json
+
+.git-backup/
