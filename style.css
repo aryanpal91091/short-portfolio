@@ -989,6 +989,10 @@ section {
 /* ==========================================================================
    RESUME VIEWER SECTION
    ========================================================================== */
+.resume-section {
+  scroll-margin-top: 5.5rem;
+}
+
 .resume-section-card {
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
@@ -1037,6 +1041,10 @@ section {
 /* ==========================================================================
    SOCIAL MEDIA CHANNELS SECTION
    ========================================================================== */
+.socials-section {
+  scroll-margin-top: 5.5rem;
+}
+
 .socials-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

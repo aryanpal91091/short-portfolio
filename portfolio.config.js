@@ -52,22 +52,22 @@ const PORTFOLIO_CONFIG = {
     {
       id: "x",
       name: "X / Twitter",
-      url: "https://x.com/your_handle",
-      isConfigured: false,
+      url: "https://x.com/ARYANPAL4r",
+      isConfigured: true,
       ariaLabel: "Follow Aryan Pal on X"
     },
     {
       id: "instagram",
       name: "Instagram",
-      url: "https://instagram.com/your_handle",
-      isConfigured: false,
+      url: "https://www.instagram.com/aryann____pal/",
+      isConfigured: true,
       ariaLabel: "Follow Aryan Pal on Instagram"
     },
     {
       id: "facebook",
       name: "Facebook",
-      url: "https://facebook.com/your_handle",
-      isConfigured: false,
+      url: "https://www.facebook.com/share/1DsRDnvnqB/",
+      isConfigured: true,
       ariaLabel: "Connect with Aryan Pal on Facebook"
     }
   ],
@@ -89,8 +89,8 @@ const PORTFOLIO_CONFIG = {
         "Automated database backup and point-in-time recovery functionality"
       ],
       technologies: [
-        "React 19", "TypeScript", "Node.js", "Express.js", 
-        "PostgreSQL", "Prisma ORM", "Redux", "REST APIs", 
+        "React 19", "TypeScript", "Node.js", "Express.js",
+        "PostgreSQL", "Prisma ORM", "Redux", "REST APIs",
         "JWT", "Docker", "Git", "GitHub"
       ],
       image: "assets/palmart-cover.jpg",
@@ -114,7 +114,7 @@ const PORTFOLIO_CONFIG = {
         "Real-time collision detection and interactive cockpit HUD flight controls"
       ],
       technologies: [
-        "JavaScript", "Three.js", "WebGL", "GLSL Shaders", 
+        "JavaScript", "Three.js", "WebGL", "GLSL Shaders",
         "3D Graphics", "Physics Simulation", "Raycasting"
       ],
       image: "assets/signal-drift-cover.jpg",
